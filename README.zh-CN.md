@@ -147,9 +147,82 @@
 
 - 支持三种运行模式：**Mode A Garden 本地生图**、**Mode B 委托宿主出图**、**Mode C 纯提示词顾问**
 - 每次任务先做模式探测，避免静默走错执行路径
-- 在 `references/` 下提供 18 大类、80+ 个结构化提示词模板
+- 在 `references/` 下提供 18 大类、79 个结构化提示词模板
 - 同时覆盖图像生成和图像编辑，并配套专门工作流与脚本
 - Garden 模式下会把 prompt 与生成图片保存到 `garden-gpt-image-2/`，方便复用、审查和版本管理
+
+#### 精选线上案例
+
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/editing-workflows%2Fbackground-replacement%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/editing-workflows/background-replacement/1-thumb.webp" alt="背景替换案例" width="100%"></a><br/>
+      <strong><code>background-replacement</code></strong><br/>
+      <sub>人像背景替换与时代广场霓虹补光。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/product-visuals%2Fexploded-view-poster%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/product-visuals/exploded-view-poster/2-thumb.webp" alt="产品爆炸图案例" width="100%"></a><br/>
+      <strong><code>exploded-view-poster</code></strong><br/>
+      <sub>Vision Pro 2 光机与算力模块拆解。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/ui-mockups%2Fchat-interface-scene%2F3"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/ui-mockups/chat-interface-scene/3-thumb.webp" alt="AI 助手 UI 样机案例" width="100%"></a><br/>
+      <strong><code>chat-interface-scene</code></strong><br/>
+      <sub>Claude 风格 AI 助手产品截图。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/infographics%2Fbento-grid-infographic%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/infographics/bento-grid-infographic/1-thumb.webp" alt="便当格信息图案例" width="100%"></a><br/>
+      <strong><code>bento-grid-infographic</code></strong><br/>
+      <sub>iPhone 16 Pro 高密度一图流解析。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/academic-figures%2Fneural-network-architecture%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/academic-figures/neural-network-architecture/2-thumb.webp" alt="神经网络架构图案例" width="100%"></a><br/>
+      <strong><code>neural-network-architecture</code></strong><br/>
+      <sub>适合论文配图的 ViT-B/16 架构图。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/technical-diagrams%2Fsystem-architecture%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/technical-diagrams/system-architecture/1-thumb.webp" alt="系统架构图案例" width="100%"></a><br/>
+      <strong><code>system-architecture</code></strong><br/>
+      <sub>多租户 AI 客服 SaaS 生产架构。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/branding-and-packaging%2Fcosmetic-packaging%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/branding-and-packaging/cosmetic-packaging/1-thumb.webp" alt="化妆品包装案例" width="100%"></a><br/>
+      <strong><code>cosmetic-packaging</code></strong><br/>
+      <sub>国货高端护肤礼盒与影棚主视觉。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/storyboards-and-sequences%2Fanime-key-visual%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/storyboards-and-sequences/anime-key-visual/1-thumb.webp" alt="动漫主视觉案例" width="100%"></a><br/>
+      <strong><code>anime-key-visual</code></strong><br/>
+      <sub>游戏首发 KV 与可裁切主视觉构图。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/ui-mockups%2Flive-commerce-ui%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/ui-mockups/live-commerce-ui/1-thumb.webp" alt="直播带货 UI 案例" width="100%"></a><br/>
+      <strong><code>live-commerce-ui</code></strong><br/>
+      <sub>明星直播带货产品界面。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/editing-workflows%2Fproduct-retouching%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/editing-workflows/product-retouching/1-thumb.webp" alt="产品精修案例" width="100%"></a><br/>
+      <strong><code>product-retouching</code></strong><br/>
+      <sub>电商主图级产品质感精修。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/slides-and-visual-docs%2Fdense-explainer-slides%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/slides-and-visual-docs/dense-explainer-slides/2-thumb.webp" alt="高密度讲解单页案例" width="100%"></a><br/>
+      <strong><code>dense-explainer-slides</code></strong><br/>
+      <sub>AI Agent 工作机制一页讲清。</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/maps%2Ffood-map%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/maps/food-map/1-thumb.webp" alt="美食地图案例" width="100%"></a><br/>
+      <strong><code>food-map</code></strong><br/>
+      <sub>City Walk 编辑型美食地图。</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>↑ 从 160+ 公开案例库里挑出的 12 个精选入口 —— <a href="./skills/gpt-image-2/README.zh-CN.md#案例画廊"><b>打开 Skill 案例画廊</b></a> 查看更多模板，也可以直接浏览 <a href="https://gpt-image2.mmh1.top/#/case">线上案例站</a>。</sub>
 
 链接：[README](./skills/gpt-image-2/README.zh-CN.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[下载 v1.0.3 .zip](https://github.com/ConardLi/garden-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
 

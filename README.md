@@ -147,9 +147,82 @@ Highlights:
 
 - Supports three runtime modes: **Mode A Garden local**, **Mode B host-native delegation**, and **Mode C advisor-only prompt writing**
 - Starts every task with mode detection so the skill does not silently choose the wrong execution path
-- Provides 18 visual categories and 80+ structured prompt templates under `references/`
+- Provides 18 visual categories and 79 structured prompt templates under `references/`
 - Covers both image generation and image editing through dedicated workflows and scripts
 - Saves prompts and generated images under `garden-gpt-image-2/` in Garden mode for reuse, review, and versioning
+
+#### Selected live cases
+
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/editing-workflows%2Fbackground-replacement%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/editing-workflows/background-replacement/1-thumb.webp" alt="Background replacement case" width="100%"></a><br/>
+      <strong><code>background-replacement</code></strong><br/>
+      <sub>Portrait edit with Times Square relighting.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/product-visuals%2Fexploded-view-poster%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/product-visuals/exploded-view-poster/2-thumb.webp" alt="Exploded product poster case" width="100%"></a><br/>
+      <strong><code>exploded-view-poster</code></strong><br/>
+      <sub>Vision Pro 2 optical and compute teardown.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/ui-mockups%2Fchat-interface-scene%2F3"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/ui-mockups/chat-interface-scene/3-thumb.webp" alt="AI assistant UI mockup case" width="100%"></a><br/>
+      <strong><code>chat-interface-scene</code></strong><br/>
+      <sub>Claude-style assistant product screenshot.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/infographics%2Fbento-grid-infographic%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/infographics/bento-grid-infographic/1-thumb.webp" alt="Bento grid infographic case" width="100%"></a><br/>
+      <strong><code>bento-grid-infographic</code></strong><br/>
+      <sub>High-density iPhone 16 Pro explainer.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/academic-figures%2Fneural-network-architecture%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/academic-figures/neural-network-architecture/2-thumb.webp" alt="Neural network architecture case" width="100%"></a><br/>
+      <strong><code>neural-network-architecture</code></strong><br/>
+      <sub>ViT-B/16 model figure for papers.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/technical-diagrams%2Fsystem-architecture%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/technical-diagrams/system-architecture/1-thumb.webp" alt="System architecture diagram case" width="100%"></a><br/>
+      <strong><code>system-architecture</code></strong><br/>
+      <sub>Multi-tenant AI SaaS production diagram.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/branding-and-packaging%2Fcosmetic-packaging%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/branding-and-packaging/cosmetic-packaging/1-thumb.webp" alt="Cosmetic packaging case" width="100%"></a><br/>
+      <strong><code>cosmetic-packaging</code></strong><br/>
+      <sub>Premium skincare gift-box composition.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/storyboards-and-sequences%2Fanime-key-visual%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/storyboards-and-sequences/anime-key-visual/1-thumb.webp" alt="Anime key visual case" width="100%"></a><br/>
+      <strong><code>anime-key-visual</code></strong><br/>
+      <sub>Game-launch key art with crop-safe layout.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/ui-mockups%2Flive-commerce-ui%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/ui-mockups/live-commerce-ui/1-thumb.webp" alt="Live commerce UI case" width="100%"></a><br/>
+      <strong><code>live-commerce-ui</code></strong><br/>
+      <sub>Celebrity livestream commerce interface.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/editing-workflows%2Fproduct-retouching%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/editing-workflows/product-retouching/1-thumb.webp" alt="Product retouching case" width="100%"></a><br/>
+      <strong><code>product-retouching</code></strong><br/>
+      <sub>Commerce-grade product cleanup.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/slides-and-visual-docs%2Fdense-explainer-slides%2F2"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/slides-and-visual-docs/dense-explainer-slides/2-thumb.webp" alt="Dense explainer slide case" width="100%"></a><br/>
+      <strong><code>dense-explainer-slides</code></strong><br/>
+      <sub>AI Agent mechanism in one page.</sub>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://gpt-image2.mmh1.top/#/case/maps%2Ffood-map%2F1"><img src="https://cdn.jsdelivr.net/gh/ConardLi/gpt-image-2-101@main/public/case/maps/food-map/1-thumb.webp" alt="Food map case" width="100%"></a><br/>
+      <strong><code>food-map</code></strong><br/>
+      <sub>City-walk editorial food guide.</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>↑ 12 selected cases from the 160+ public case library — <a href="./skills/gpt-image-2/README.md#case-gallery"><b>open the skill gallery</b></a> for more templates, or browse the <a href="https://gpt-image2.mmh1.top/#/case">live website</a>.</sub>
 
 Links: [README](./skills/gpt-image-2/README.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[Download v1.0.3 .zip](https://github.com/ConardLi/garden-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
 
